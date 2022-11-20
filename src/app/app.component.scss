@@ -1,0 +1,265 @@
+.Hero-Section {
+    width: 1728px;
+    height: 1003px;
+    margin: 0 0 114px;
+    padding: 49.6px 48px 265px 187px;
+    background-color: var(--darktheme);
+  }
+
+  .Navigation {
+    width: 596px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 48px;
+    margin: 15.4px 0 178px 804px;
+    padding: 0;
+  }
+  .navbar-translate {
+    float: left;
+  }
+
+  #navigation {
+    position: absolute;
+    right: 0;
+  }
+
+  .Home {
+    width: 53px;
+    height: 19px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .About-Us {
+    width: 86px;
+    height: 19px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .Services {
+    width: 81px;
+    height: 19px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+  
+  .Careers {
+    width: 78px;
+    height: 19px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+  
+  .Contact-Us {
+    width: 150px;
+    height: 19px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+  
+  .container.headerFirst {
+    margin-left: 5%;
+  }
+
+  img.Logo {
+    left: -200px;
+    width: 58px;
+    height: 50.4px;
+    object-fit: contain;
+  }
+
+  .social-media {
+    width: 171px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .link-elements {
+    text-transform: uppercase;
+    height: 19px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    display: inline-block;
+  }
+
+  .first-link-elements {
+    margin-top: 20px;
+  }
+
+  li.nav-item {
+    margin-bottom: 10px;
+  }
+
+  footer .nav {
+    float: none !important;
+  }
+
+  .text-style-1 {
+    font-weight: bold;
+    padding: 10px 0;
+  }
+
+  .Phone-company {
+    width: 105px;
+    height: 56px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .Physical-address {
+    width: 161px;
+    height: 88px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .Email-address {
+    width: 123px;
+    height: 56px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .Frame-66 {
+    width: 138.9px;
+    height: 48.9px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  img.Twitter {
+    width: 48.9px;
+    height: 48.9px;
+    flex-grow: 0;
+    object-fit: contain;
+  }
+
+  .twitter {
+    width: 74px;
+    height: 19px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+  }
+
+  .Footer-Copy-Rights {
+    width: 565px;
+    height: 24px;
+    margin: 120px auto 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: var(--white);
+    opacity: .7;
+  }
+
+  .navColor {
+    background-color: var(--white);
+  }
+
+  .navColor .nav-item span{
+    color: var(--dark);
+  }

@@ -1,0 +1,193 @@
+<router-outlet></router-outlet>
+<nav
+  class="navbar navbar-expand-lg fixed-top navbar-transparent {{navColor}}"
+  color-on-scroll="100"
+  id="navbar-top"
+>
+  <div class="container headerFirst">
+    <div class="navbar-translate" >
+      <a
+        class="navbar-brand"
+        placement="bottom"
+        [routerLink]="['/home']"
+        target="_blank"
+        tooltip="Cyber Elements Information Technology"
+      >
+          <img id="logoImage" src="assets/img/logo.png"
+          srcset="img/logo@2x.png 2x,
+          img/logo@3x.png 3x"
+         class="Logo">
+
+      </a>
+      <button
+        aria-controls="navigation-index"
+        aria-label="Toggle navigation"
+        class="navbar-toggler navbar-toggler"
+        [attr.aria-expanded]="!isCollapsed"
+        (click)="isCollapsed = !isCollapsed"
+        type="button"
+      >
+        <span class="navbar-toggler-bar bar1"> </span>
+        <span class="navbar-toggler-bar bar2"> </span>
+        <span class="navbar-toggler-bar bar3"> </span>
+      </button>
+    </div>
+    <div
+      class="navbar-collapse justify-content-end" id="navigation"
+      [collapse]="isCollapsed"
+      
+    >
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <a> Cyber Elements Information Technology• </a>
+          </div>
+          <div class="col-6 collapse-close text-right">
+            <button
+              aria-controls="navigation-index"
+              aria-label="Toggle navigation"
+              class="navbar-toggler"
+              [attr.aria-expanded]="!isCollapsed"
+              (click)="isCollapsed = !isCollapsed"
+              type="button"
+            >
+              <i class="tim-icons icon-simple-remove"> </i>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+        <div class="container">
+          <div
+            class="navbar-collapse"
+            [isAnimated]="true"
+            [collapse]="isCollapsed"
+            id="example-navbar"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" [routerLink]="['/home']">
+                  <span class="Home">
+                    Home
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/about']">
+                  <span class="About-Us">
+                    About Us
+                  </span>
+                </a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/services']">
+                  <span class="Services">
+                    Services
+                  </span>
+                </a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/careers']">
+                  <span class="Careers">
+                    Careers
+                  </span>
+                </a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/contact']">
+                  <span class="Contact-Us">
+                    Contact Us
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+</nav>
+<footer class="footer section section-nucleo-icons">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-3">
+          <span class="social-media heading---H6 text-uppercase">Quick Links</span>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="link-elements first-link-elements" [routerLink]="['/home']"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="link-elements" [routerLink]="['/about']"> About </a>
+            </li>
+            <li class="nav-item">
+              <a class="link-elements" [routerLink]="['/services']"> Services </a>
+            </li>
+            <li class="nav-item">
+              <a class="link-elements" [routerLink]="['/careers']"> Careers </a>
+            </li>
+            <li class="nav-item">
+              <a class="link-elements" [routerLink]="['/contact']"> Contact </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <span class="social-media heading---H6 text-uppercase">Contact Information</span>
+          <ul class="nav">
+            <li class="nav-item">
+              <span class="Phone-company">
+                <div class="text-style-1">Phone:</div>
+                (+971)54 567 8113
+              </span>
+            </li>
+            <li class="nav-item">
+              <span class="Physical-address">
+                <div class="text-style-1">Physical address:</div>
+                Mazaya Business Avenue AA1, Office 4108
+              </span>
+            </li>
+            <li class="nav-item">
+              <span class="Email-address">
+                <div class="text-style-1">Email address​:</div>
+                bomeihr@gmail.com
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <span class="social-media heading---H6 text-uppercase">social media</span>
+          <div class="btn-wrapper profile">
+            <div class="Frame-66">
+              <img src="assets/svg/Twitter.svg"
+                   class="Twitter">
+              <span class="twitter text-uppercase">
+                twitter
+              </span>
+            </div>
+            <div class="Frame-66">
+              <img src="assets/svg/Linkedin.svg"
+                   class="Twitter">
+              <span class="twitter text-uppercase">
+                Linkedin
+              </span>
+            </div>
+            <div class="Frame-66">
+              <img src="assets/svg/Instagram.svg"
+                   class="Twitter">
+              <span class="twitter text-uppercase">
+                Instagram
+              </span>
+            </div>
+            <div class="Frame-66">
+              <img src="assets/svg/Facebook logo 2019.svg"
+                   class="Twitter">
+              <span class="twitter text-uppercase">
+                Facebook
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Footer-Copy-Rights text-uppercase">
+        Copyright © 2022 BOMEI TECHNOLOGY LLC - ALL RIGHTS RESERVED
+      </div>      
+    </div>
+  </footer>

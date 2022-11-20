@@ -1,0 +1,152 @@
+<div class="wrapper">
+    <div class="main">
+        <div class="section section-basic" id="basic-elements">
+            <img class="path" src="assets/img/path1.png" />
+            <div class="section section-javascript" id="javascriptComponents">
+                <img class="path" src="assets/img/path5.png" />
+                <img class="path path1" src="assets/img/path5.png" />
+                <div class="section sectionServices"> 
+                    <div class="space-50"></div>
+                    <div class="Services-Headline">
+                        <span class="Our-Services heading---H3">
+                            Chat With us
+                        </span>
+                        <span class="The-company Body---Normal">
+                            The company specializes in software development and offers complete software development and maintenance services.
+                        </span>
+                    </div>
+                    <div class="Base">
+                        <div class="row justify-content-between flexVector">
+                            <div class="col-lg-5 mb-5 mb-lg-0">
+                                <div class="TextHeading text-uppercase heading---H2">
+                                    Send Us A message
+                                </div>
+                                <p class="Lorem-ipsum Body---Normal">
+                                    Using our form and we'll get back to you with an answer shortly. We will respond to your email request in 24 - 48 business hours.                                    
+                                </p>
+                                <div class="space-100"></div>
+                                <div class="displayFlex">
+                                    <div class="CTA">
+                                        <span class="Call-us">
+                                            Call us
+                                        </span>
+                                        <span class="Call-phone body---small">
+                                            (+971)54 567 8113
+                                        </span>
+                                    </div>
+                                    <div class="Frame-222">
+                                        <span class="Email-us">
+                                            Email us
+                                        </span>
+                                        <span class="helpovalcom body---small">
+                                            bomeihr@gmail.com
+                                        </span>
+                                    </div>
+                                </div>                           
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="Rectangle">
+                                    <span class="Let-Talk">
+                                        Let's Talk
+                                        <span class="text-style-1">👋</span>
+                                    </span>
+                                    <span class="If-you-have Body---Normal">
+                                        If you have any question or enquires. Fill the form below. We'll get back to you.
+                                    </span>
+                                    <form class="divInput">
+                                        <label for="name">
+                                            NAME
+                                        </label>
+                                        <input 
+                                               placeholder="Your name"
+                                               type="text"
+                                               id="name"
+                                               name="name"
+                                        />
+                                        <label for="email">
+                                            EMAIL
+                                        </label>
+                                        <input
+                                               placeholder="example@abc.com"
+                                               type="email"
+                                               id="email"
+                                               name="email" 
+                                        />
+                                        <label for="message">
+                                            MESSAGE
+                                        </label>
+                                        <textarea
+                                                  id="message" 
+                                                  name="message"
+                                        ></textarea>
+                                        <button type="submit" (click)="contactUs()">
+                                            <span class="Send">
+                                                Send
+                                            </span>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section sectionServices">
+                    <div class="container sectionServices">
+                        <div class="space-100"></div>
+                        <div class="space-100"></div>
+                        <div class="Services-Headline">
+                            <span class="Our-Services contactServices heading---H3">
+                                Our office
+                            </span>
+                        </div>
+                        <div class="Item">
+                            <div class="Localisation">
+                                <google-map 
+                                    height="100%"
+                                    width="100%"
+                                    [zoom]="zoom"
+                                    [center]="center"
+                                    [options]="options"
+                                    (mapClick)="eventHandler($event,'mapClick')"
+                                    (mapDblclick)="eventHandler($event,'mapDblclick')"
+                                    (mapDrag)="eventHandler($event,'mapDrag')"
+                                    (mapDragend)="eventHandler($event,'mapDragend')"
+                                    (mapRightclick)="eventHandler($event,'mapRightclick')"
+                                    (positionChanged)="eventHandler($event,'marker_positionChanged')"
+                                    (zoomChanged)="eventHandler($event,'zoomChanged')"
+                                >
+                                    <map-marker
+                                    #markerElem="mapMarker"
+                                    [position]="center"
+                                    label="BOMEI"
+                                    title="BOMEI"
+                                    (mapClick)="openInfo(markerElem, 'Mazaya Business Avenue - AA1 Tower')"
+                                    >
+                                    </map-marker>
+                                
+                                    <map-info-window>{{ infoContent }}</map-info-window>
+                                </google-map>                           
+                            </div>
+                            <div class="Shape">
+                                <div class="Homer-Country heading---H5">
+                                    Dubai, UAE
+                                </div>
+                                <span class="Homer-St body---small">
+                                    Mazaya Business Avenue - AA1 Tower - Office 4108
+                                </span>
+                                <a target="_blank" href="https://www.google.com/maps/place/25%C2%B004'02.6%22N+55%C2%B008'40.3%22E/@25.0673843,55.1423241,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x1c3015e69744c3d5!8m2!3d25.0673843!4d55.1445128">
+                                    <div class="Group-6-Copy">
+                                        <span class="Open-in-Maps Body---Normal">
+                                            Open in Maps
+                                        </span>
+                                        <div class="Chevron_Right">></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

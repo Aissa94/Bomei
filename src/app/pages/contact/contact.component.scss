@@ -1,0 +1,383 @@
+.buttonAbout {
+    border-radius: 4px;
+    margin: 50px 0 20px;
+}
+
+#VectorAbout {
+    margin-left: 0;
+}
+
+.CTA-1 {
+    width: 1440px;
+    height: 514px;
+    margin: 100px auto 0px;
+    object-fit: contain;
+    background-color: var(--orange);
+    border-radius: 15px;
+  }
+
+   .Our-Services.contactServices {
+    margin-top: 40px;
+    margin-bottom: 0;
+    height: 0px;
+  }
+
+  .Services-Headline .buttonThird:hover {
+    background-color: var(--white);
+    border-color: var(--primary);
+    background: linear-gradient(to right, var(--white) 50%, var(--primary) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+    color: var(--dark);
+  }
+  
+  .Base {
+    width: 100%;
+    height: 550px;
+    flex-grow: 0;
+    margin: 0 0 219px;
+    padding-top: 85px;
+    background-color: var(--darktheme);
+  }
+
+  .TextHeading {
+    width: 412.8px;
+    height: 37px;
+    margin: 0 163.2px 16px 0;
+    font-family: Montserrat;
+    font-size: 31px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    margin-top: 65px;
+  }
+
+  .CTA {
+    width: 216.4px;
+    height: 84px;
+    align-self: center;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 29px 35.6px 0 0;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background-color: var(--darktheme);
+    border: solid 2px var(--primary);
+  }
+
+  .Call-us {
+    width: 56.4px;
+    height: 22px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .Call-phone {
+    width: 152.4px;
+    height: 22px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .helpovalcom {
+    width: 207.6px;
+    height: 22px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e4fd7;
+  }
+  
+  .Email-us {
+    width: 69.6px;
+    height: 22px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e4fd7;
+  }
+  
+  .Group-223 {
+    width: 207.6px;
+    height: 52px;
+    flex-grow: 0;
+  }
+
+  .Frame-222 {
+    width: 271.6px;
+    height: 84px;
+    align-self: center;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 29px 52.4px 0 35.6px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    background-color: var(--darktheme);
+    border: solid 2px var(--white);
+  }
+
+  .displayFlex {
+    display: flex;
+  }
+
+  div.Rectangle {
+    width: 584px;
+    height: 666px;
+    margin: 70px 0 0 189px;
+    padding: 36px 31.8px 32.4px 32px;
+    object-fit: contain;
+    background-color: var(--darktheme);
+    border-radius: 15px;
+  }
+
+  .Let-Talk {
+    width: 193.2px;
+    display: inline-block;
+    margin: 0 323px 18px 4px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+  .Let-Talk .text-style-1 {
+    font-family: Satoshi;
+    font-weight: normal;
+  }
+
+  .If-you-have {
+    width: 518px;
+    height: 60px;
+    margin: 18px 2px 32px 0.2px;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .divInput {
+    width: 520px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 32px 0.2px 16px 0;
+    padding: 0;
+  }
+
+  .divInput label{
+    width: 52px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .divInput input {
+    height: 40px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+
+  .divInput textarea {
+    min-height: 126px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+
+  .divInput button {
+    width: 516px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 38.6px 0.2px 0 4px;
+    padding: 16px 24px;
+    border-radius: 4px;
+    background-color: var(--orange);
+    cursor: pointer;
+  }
+
+  .divInput .Send {
+    width: 42px;
+    height: 24px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .Localisation {
+    width: 1348px;
+    height: 440px;
+    flex-grow: 0;
+    margin: auto;
+  }
+
+  .Shape {
+    width: 1348px;
+    height: 190px;
+    padding: 30px 124.8px 30px 74.9px;
+    border: solid 1px #ececec;
+    background-color: var(--white);
+    border-radius: 0 0 20px 20px;
+  }
+
+  .Chevron_-_Right {
+    width: 22.5px;
+    height: 20px;
+    flex-grow: 0;
+    margin: 9.5px 0 9.5px 30px;
+    border: solid 2px #2e4fd7;
+  }
+
+  .Open-in-Maps {
+    width: 332px;
+    height: 30px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #2e4fd7;
+  }
+
+  .Homer-Country {
+    width: 531.7px;
+    height: 30px;
+    margin: 0 616.6px 16px 0px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #191919;
+  }
+
+  .Homer-St {
+    width: 1148.3px;
+    height: 22px;
+    margin: 16px 0 32px 0px;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1e1e1e;
+  }
+
+  .Group-6-Copy {
+    width: 374.5px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin: 32px 773.8px 0 0;
+    padding: 0;
+  }
+
+  .Item {
+    width: 1348px;
+    flex-grow: 0;
+    margin: -140px auto 250px;
+  }
+
+  .Chevron_Right {
+    font-size: 22.5px;
+    flex-grow: 0;
+    margin: 9.5px 0 9.5px 30px;
+    color: #2e4fd7;
+  }

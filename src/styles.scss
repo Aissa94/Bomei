@@ -1,0 +1,658 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: Hind;
+    src: local(Hind-Light),
+      url(assets/fonts/Hind-Light.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: local(Montserrat-Bold),
+      url(assets/fonts/Montserrat-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: local(Montserrat-Regular),
+      url(assets/fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+
+  @font-face {
+    font-family: Satoshi;
+    src: local(Satoshi-Regular),
+      url(assets/fonts/Satoshi-Regular.woff2) format("woff2"),
+      url(assets/fonts/Satoshi-Regular.woff) format("woff"),
+      url(assets/fonts/Satoshi-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+
+  .section {
+    background-color: var(--darktheme) !important;
+  }
+
+  .heading---H1 {
+    font-family: Montserrat;
+    font-size: 61px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+  }
+  .heading---H2 {
+    font-family: Montserrat;
+    font-size: 49px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+  }
+  .heading---H3 {
+    font-family: Montserrat;
+    font-size: 39px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+  }
+  .heading---H4 {
+    font-family: Montserrat;
+    font-size: 31px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+  }
+  .heading---H5 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+  }
+  .heading---H6 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+  }
+  .Body---Normal {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+  }
+  .body---small {
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .body---extraSmall {
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+.carousel-indicators {
+    li.active {
+      background-color: var(--primary) !important;
+    }
+  }
+
+.carousel-indicators {
+    margin-bottom: -60px;
+  }
+
+.carousel-control-next{
+    align-items: flex-start; /* Aligns it at the top */
+    margin-right: -200px;
+}
+
+.carousel-control-prev {
+    align-items: flex-start; /* Aligns it at the top */
+    margin-left: -200px;
+}
+
+.footer {
+    border: none !important;
+    background: var(--darktheme) !important;
+  }
+
+  .buttonPrimary {
+    
+    height: 56px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 30px 38px 0 0;
+    padding: 16px 24px;
+    border-radius: 4px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    display: inline-block;
+    background-position: right bottom;
+  }
+
+  .buttonPrimary:hover {
+    background-color: var(--white);
+    border-color: var(--primary);
+    background: linear-gradient(to right, var(--white) 50%, var(--primary) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+    color: var(--dark);
+  }
+
+  .buttonSecondary {
+    width: 156px;
+    height: 56px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 0 0 0 38px;
+    padding: 16px 24px;
+    border-radius: 4px;
+    border: solid 1px var(--primary);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: var(--primary);
+    display: inline-block;
+    background-position: right bottom;
+  }
+  
+  .buttonSecondary:hover {
+    color: var(--white);
+    border-color: var(--white);
+  }
+
+  .buttonThird {
+    width: 138px;
+    height: 56px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 20px 216px 0 215px;
+    padding: 16px 24px;
+    object-fit: contain;
+    border-radius: 36px;
+    background-color: var(--primary);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: var(--white);
+    background-position: right bottom;
+}
+
+.buttonThird:hover {
+  background-color: var(--orange);
+  border-color: var(--primary);
+  background: linear-gradient(to right, var(--orange) 50%, var(--primary) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .5s ease-out;
+  color: var(--dark);
+}
+
+.container.sectionServices {
+    min-width: 100%;
+  }
+
+  .container.sectionWidth {
+    min-width: 100%;
+  }
+    
+  .container.sectionServices .row {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section .sectionServices {
+    background-color: var(--darktheme);
+  }
+
+  .We-are-bomei {
+    width: 687px;
+    height: 118px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 49px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 15px;
+  }
+
+  .Lorem-ipsum {
+    width: 667px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: justify;
+    text-justify: inter-word;
+    color: var(--white);
+  }
+
+  .Frame-137 {
+    width: 1321.6px;
+    height: 476px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 160px;
+    margin: 162px 171.4px 0 0;
+    padding: 0;
+  }
+
+  .Vector {
+    margin-left: 200px;
+    width: 474.6px;
+    flex-grow: 0;
+  }
+
+  .flexVector {
+    width:75% !important;
+    margin:auto !important;
+  }
+
+
+  .Services-Headline {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    margin: 0 0 72px 0;
+    padding: 0;
+  }
+
+  .Our-Services {
+    text-transform: uppercase;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 39px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .The-company {
+    width: 618px;
+    height: 48px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+  }
+
+  .Nullam-eget {
+    width: 600px;
+    height: 60px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 18.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: var(--white);
+  }
+
+  .Rectangle-19 {
+    margin: 0 auto;
+    width: 383px;
+    padding: 154px 32px 27px;
+    border: solid 1px var(--primary);
+    border-radius: 10px;
+  }
+  .sectionServicesDiv {
+    text-align: center;
+  }
+
+  img.Frame-115 {
+    display: inline-block;
+    width: 221.1px;
+    height: 181.1px;
+    object-fit: contain;
+    margin-bottom: -90.6px;
+    padding: 0 20px;
+  }
+
+  img.Group-35 {
+    display:inline-block;
+    width: 228.7px;
+    height: 179.2px;
+    object-fit: contain;
+    margin-bottom: -89.6px;
+    padding: 0 20px;
+  }
+
+  img.Frame-116 {
+    display:inline-block;
+    width: 218.8px;
+    height: 178.8px;
+    object-fit: contain;
+    margin-bottom: -89.4px;
+    padding: 0 20px;
+  }
+
+  .Software-Development {
+    display: block;
+    margin-bottom: 15px;
+    height: 30px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+  }
+
+  .We-develop {
+    height: 144px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    display: inline-block;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 30px;
+  }
+
+  .Homepage---2 {
+    width: 1728px;
+    height: 6437px;
+    flex-grow: 0;
+    border: solid 1px #000;
+    background-color: var(--white);
+  }
+
+  .Our-Process {
+    width: 298px;
+    height: 47px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 39px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--dark);
+  }
+
+  .In-order {
+    width: 618px;
+    height: 48px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark);
+  }
+
+  .Process-1 {
+    width: 340px;
+    height: 240px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0;
+  }
+  
+  .ProcessNumber {
+    width: 107px;
+    height: 115px;
+    flex-grow: 0;
+    opacity: 0.2;
+    font-family: Montserrat;
+    font-size: 96px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--orange);
+  }
+
+  img.numbers {
+    width: 83.1px;
+    height: 259.8px;
+    display: flex;
+    flex-grow: 0;
+    object-fit: contain;
+  }
+
+  .discovery {
+    text-transform: uppercase;
+    height: 37px;
+    width: 500px;
+    flex-grow: 0;
+    padding: 13px 190px 13px 0;
+    font-family: Montserrat;
+    font-size: 31px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    margin-top: -225px;
+    margin-left: 100px;
+  }
+
+  .We-learn-about {
+    padding-top: 15px;
+    height: 72px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    margin-left: 100px;
+  }
+
+  .oddProcess {
+    left: 25%;
+  }
+
+  .evenProcess {
+    left: 5%;
+  }
+
+  .Frame-131 {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 87.9px;
+    margin: 8px 0 70px;
+    padding: 0;
+  }
+
+  .LogoPartners {
+    flex-grow: 0;
+    padding: 0.6px 1.4px 0.6px 0;
+  }
+
+  .partners {
+      color: var(--white) !important;
+  }
+
+  .Group-56 {
+      width: 1385px;
+      height: 606.2px;
+      margin: 128px 0 0;
+      padding: 0 76px 0 140px;
+  }
+
+  .Frame-54 {
+    width: 531px;
+    height: 318px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 144px 195px 110px 0;
+    padding: 0;
+  }
+
+  .Smarty-Application {
+    text-transform: uppercase;
+    height: 94px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .Mi-in {
+    height: 120px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: var(--white);
+    margin-top: 15px;
+  }
+
+  .removebg-preview {
+    width: 259.8px;
+    height: 557.9px;
+    flex-grow: 0;
+  }
+
+  img.contactCall {
+    width: 483px;
+    height: 312px;
+    margin: 117px 125px 117px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .colorGrey {
+    color: var(--dark);
+  }

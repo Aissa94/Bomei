@@ -1,0 +1,152 @@
+.container.sectionServices {
+  min-width: 75% !important;
+  text-align: left;
+}
+
+.Vector img {
+  min-width: 100%;
+}
+
+.buttonAbout {
+    border-radius: 4px;
+    margin: 50px 0 20px;
+}
+
+#VectorAbout {
+    margin-left: -100px;
+}
+
+.CTA-1 {
+    width: 1440px;
+    height: 514px;
+    margin: 100px auto 0px;
+    object-fit: contain;
+    background-color: var(--orange);
+    border-radius: 15px;
+  }
+
+  .CTA-1 .Our-Services {
+    width: 920px;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .Services-Headline .buttonThird:hover {
+    background-color: var(--white);
+    border-color: var(--primary);
+    background: linear-gradient(to right, var(--white) 50%, var(--primary) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+    color: var(--dark);
+  }
+
+  .text-service-size {
+    font-size: 31px;
+    margin-bottom: 0;
+  }
+
+  .nowdays-width {
+    width: 818px;
+  }
+
+  .Group-211 {
+    width: 1088px;
+    height: 404px;
+    flex-grow: 0;
+    margin: auto;
+  }
+
+  .Section-Title {
+    width: 298px;
+    height: 47px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 39px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 20px;
+  }
+
+  .Row-1 {
+    width: 1088px;
+    height: 136px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 82px;
+    padding: 0;
+    margin: 50px auto;
+  }
+
+  .divPart {
+    width: 528px;
+    height: 136px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0;
+    border-radius: 8px;
+  }
+
+  img.Feature-Icon-with-circle {
+    width: 60px;
+    height: 60px;
+    flex-grow: 0;
+    object-fit: contain;
+    border-radius: 83.3px;
+  }
+
+  .Headline {
+    width: 428px;
+    height: 30px;
+    flex-grow: 0;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+  }
+
+  .Description {
+    width: 428px;
+    height: 90px;
+    flex-grow: 0;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: var(--white);
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .divDetails {
+    width: 428px;
+    height: 136px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+  }
